@@ -3,10 +3,10 @@ const React = require('react')
 class Form extends React.Component {
   render() {
     return (
-      <form>
+      <div>
         <h3>{this.props.heading}</h3>
         {this.props.children}
-      </form>
+      </div>
     )
   }
 }
